@@ -1,0 +1,72 @@
+body {
+  /* background: url(/image/background.png) 100% 100%; */
+  background-color: #4D904C;
+  background-size: cover;
+}
+
+ /*continer*/
+
+.container {
+  background: #2060A9;
+  
+}
+
+.form1-check-label{
+  color: #080F30;
+ 
+}
+
+h3 {
+  color: #082530;
+  
+}
+
+h4 {
+  color: #082530;
+
+}
+
+span {
+  font-weight: bold;
+}
+ label {
+  font-weight: bold;
+  
+ }
+
+ table {
+  background-color: white;
+ }
+
+/*Boton de calcular promedio*/
+.btn{
+ 
+  background-color: rgb(238, 238, 238);
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 10em;
+  border-radius: 1rem;
+  color: rgb(51, 94, 236);
+  box-shadow: 0 0.4rem #0047ca;
+  cursor: pointer;
+ }
+ 
+ button:active {
+  color: rgb(11, 29, 192);
+  box-shadow: 0 0.2rem #0752f3;
+  transform: translateY(0.2rem);
+ }
+ 
+ button:hover:not(:disabled) {
+  background: rgb(51, 94, 236);
+  color: white;
+  text-shadow: 0 0.1rem #210ecc;
+ }
+ 
+ button:disabled {
+  cursor: auto;
+  color: rgb(128, 128, 128);
+ }
+
